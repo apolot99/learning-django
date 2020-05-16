@@ -151,6 +151,14 @@
 
 # Normalization is the process of eliminating redundant data from database tables
 
+# Whenever we create or modify an existing model, we'll need to update django in a two step process:
+#   - We create a migrations file with the makemigrations command
+#   - We build the actual database with the migrate command which executes the instructions in our migration file
+
+# Migrations file should be as small and concise as possible as this makes it easier to debug in the future or even roll back changes as needed
+
+# 
+
 
 
 
