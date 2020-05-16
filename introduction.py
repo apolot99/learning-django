@@ -125,7 +125,31 @@
 
 # Gunicorn is a web server suitable for production
 
-# 
+# A database model is used to store is used to store and display posts from our users.
+
+# The design/schema of databases is the blue print of how all information is stored, updated and accessed. i.e relational and non relational
+
+# Relational databases consist of tables that are structured in clumns and rows like excel spreadsheets.
+
+# MySQL, PostgreSQL, Microsoft Access, Microsoft SQL and oracle are relational databases. 
+
+# They use Structured Query Language (SQL) which is a programming language just for managing data in a relational database.
+
+# Non relational data bases do not have a strict a strict row and column schema
+
+# Every row in a relational table has a primary key
+
+# the 'id' column is the primary key
+
+# A key tenant of good database design is that each data item like username should be stored once in one location
+
+# A second tenant of good database design is to use input constraints to increase the reliability of your data
+
+# Foreign keys let us link multiple database tables together.
+
+# Types of foreign key relationships i.e one to many, one to one, many to many
+
+# Normalization is the process of eliminating redundant data from database tables
 
 
 
