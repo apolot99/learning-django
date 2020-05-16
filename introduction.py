@@ -58,6 +58,74 @@
 # wsgi.py helps dajngo serve our eventual web pages
 # manage.py is used to execute various django commands such as running the local web server or creating a new app
 
+# admin.py is a configuration file for the built in django admin app
+# apps.py is a configuration file for the app itself.
+# migrations keep track of any changes to our model.py so our data base and models.py file stay intact
+# models.py is where we define our databse models which django automatically translates into data base models
+# apps.py is for our app specific tests
+# views.py is where we handle our requests/response logic for our web app
+
+# local apps are apps running on your computer
+# local apps should always be at the bottom of INSTALLED_APPS in the settings.py file because django executes the INSTALLED_APPS settings from top to bottom
+# The internatl admin app is loaded first
+
+# In django, 4 separate files are used to power one single page i.e;
+# - urls.py file
+# - views.py file
+# - models.py file
+# - index.html
+
+#       What happens when you type in a URL 
+# a URLpattern is found that matches the home page
+# the URLpattern specifies a view 
+# the view determines the contents for the page usually from a database model and template for styling and basic logic
+# the end result is sent back to the suer as an HTTP response
+
+# URLconfs determines where the content is going
+# the model contains content from the database
+# the template provides styling for it
+
+# when it comes to errors, look at the last line and it will tell you exactly where the error is
+
+# Git is a version control sysytem 
+
+# Initial set up of our pages app involves the following steps;
+# -create a directory for our code
+# -install django in a new virtual environment
+# -create a new django project
+# -create a new pages app
+# -update settings.py
+
+# To ignore a folder, create a new file called gitignore using this command in the terminal, touch .gitignore
+# Open up the gitignore file and add the name of the folder you want to ignore inside of gitignore
+
+# Templates are individual HTML files that can be linked together
+
+# Every web framework needs a convenient way to generate HTML files and django uses templates to do so.
+
+# HTML is a HyperText Markup Language file format used as the basis of a web page.
+
+# press CONTROL+Z to underdo something
+
+# Classes unlike functions should always be capitalized
+
+# When using class based views, always add as_view() at the end of the view name
+
+# In the words of Django co-creator Jacob Kaplan-Moss, “Code without tests is broken as designed.”
+
+# Writing tests is important because it automates the process of confirming that the code works as expected.
+
+# The status code for each page is 200 which is the standard response for a successful HTTP request.
+
+# Putting our code into production means making our site available on the internet where veryone can see it by deploying our code to an external server that anyone can use to see our site.
+
+# Local code lives only on our computer while production code lives on an external server available to everyone.
+
+# Pip is a package manager for python
+
+# Gunicorn is a web server suitable for production
+
+# 
 
 
 
