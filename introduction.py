@@ -157,7 +157,9 @@
 
 # Migrations file should be as small and concise as possible as this makes it easier to debug in the future or even roll back changes as needed
 
-# 
+# Instead of creating a pip file, create a requirements.txt file
+
+# In the requirements file, put django==3.0.1
 
 
 
