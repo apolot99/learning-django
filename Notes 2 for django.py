@@ -17,3 +17,12 @@
 # Then, In our views file, add the code to display the contents of our Post model using ListView.
 
 # After creating templates file, update settings.py so django knows to look there for our templates
+
+#  CSS is referred to as a static file because, unlike our dynamic database content, it doesn’t change. 
+
+# Fortunately it’s straightforward to add static files like CSS, JavaScript, and images to our Django project.
+
+#  We need to add the static files to our templates by adding {% load static %} to the top of base.html.
+
+# Because our other templates inherit from base.html we only have to add this once.
+
