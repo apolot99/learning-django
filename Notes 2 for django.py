@@ -26,3 +26,5 @@
 
 # Because our other templates inherit from base.html we only have to add this once.
 
+# All blog post entries will start with post/
+

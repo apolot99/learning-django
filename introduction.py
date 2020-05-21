@@ -161,6 +161,8 @@
 
 # In the requirements file, put django==3.0.1
 
+# In one django project, there will be many apps.
+
 
 
 
