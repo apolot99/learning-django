@@ -28,3 +28,19 @@
 
 # All blog post entries will start with post/
 
+# Blog app with forms, we’ll add forms so we don’t have to use the Django admin at all for these changes.
+
+# Forms are very common and very complicated to implement correctly. 
+
+# Any time you are accepting user input there are security concerns (XSS Attacks), proper error handling is required, 
+
+# and there are UI considerations around how to alert the user to problems with the form. 
+
+# Not to mention the need for redirects on success
+
+#  Add a {% csrf_token %} which Django provides to protect our form from crosssite scripting attacks. You should use it for all your Django forms. 
+
+#  you should add a get_absolute_url() and __str__() method to each model you write.
+
+# Reverse is a very handy utility function Django provides us to reference an object by its URL template name
+
