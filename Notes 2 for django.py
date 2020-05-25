@@ -44,3 +44,13 @@
 
 # Reverse is a very handy utility function Django provides us to reference an object by its URL template name
 
+# When you get errors, never go to the virtual environment. At the end of the error, it will show you the problem. 
+
+# Never change anything in the virtual environments.
+
+# We add {% csrf_token %} for security concerns, namely to prevent a XSS Attack.
+
+# The order of our urls matters here because Django reads this file top-to-bottom.
+
+# classbased views are capitalized and have the as_view() suffix.
+
