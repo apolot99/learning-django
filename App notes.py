@@ -21,3 +21,32 @@
 # -immediately after you've added new functionality and it's clear in your mind 
 
 #  you do not need to add tests for core Django functionality.
+
+# while doing tests, we  test three things:
+# -the page exists and returns a HTTP 200 request code
+# -the page uses the correct url name in the view
+# -the proper template is being used
+
+# Bootstrap comes with the four basic file that we need i.e
+# -Bootstrap.css
+# -jQuery.js
+# -Popper.js
+# -Bootstrap.js
+
+# The fastest method I’ve found to figure out what’s happening under-the-hood in Django is to simply go to the Django source code on Github, use the search bar and try to find the specific piece of text.
+
+# SendGrid is a popular service for sending transactional emails.
+
+# A general rule of thumb is to use the plural of an app name–posts,payments,users,etc.– 
+
+# unless doing so is obviously wrong as in the common case of blog where the singular makes more sense.
+
+# I have the same django admin for all the projects, we just pick the author we want to use for the specific project
+
+# Bootstrap has a built-in component called Cards that we can customize for our individual articles
+
+# mixin is a special kind of multiple inheritance that Django uses to avoid duplicate code and still allows customization
+
+# After making a new model it’s good to play around with it in the admin app before displaying it on our actual website
+
+#  This is called a “query” as we’re asking the database for a specific bit of information. 
